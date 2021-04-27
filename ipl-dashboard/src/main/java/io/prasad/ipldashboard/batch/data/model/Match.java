@@ -20,7 +20,7 @@ import lombok.Setter;
 public class Match{
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    //@GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
     private String city;
     private LocalDate matchDate;
